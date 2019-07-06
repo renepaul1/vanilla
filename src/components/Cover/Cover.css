@@ -1,0 +1,57 @@
+
+/***********************************************************************
+*  Cover
+**********************************************************************/
+.container {
+  /*show heigh: auto  
+  align-items: center;
+  justify-content: center;
+  */
+  height: 70vh; 
+  display: flex;
+  background-image: url(./town.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+}
+
+/* image 
+.cover {
+  width: 100%;
+}
+*/
+
+.logo-header {
+  /* position: absolute; 
+  width: 100%;
+  top: 100px;
+  float: left;
+  */
+  width: 100vw;
+  justify-content: center;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.3);
+  padding-left: 30%;
+  padding-top: 100px;
+  font-family: 'norwester', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.tipsLogo {
+  display: contents;
+}
+
+.fourLogo {
+  display: contents;
+  font-size:2em;
+  font-weight: normal;
+  letter-spacing: -10pt;
+}
+
+
+.townLogo {
+  display: contents;
+}

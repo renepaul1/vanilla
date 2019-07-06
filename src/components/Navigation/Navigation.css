@@ -1,0 +1,67 @@
+/***********************************************************************
+*  Nav Bar
+**********************************************************************/
+@media only screen and (max-width: 600px) {
+  .main-nav {
+      font-size: 0.5em;
+      padding: 0;
+  }
+}
+
+.push {
+  margin-left: auto;
+}
+
+li {
+  padding: 20px;
+}
+
+a {line-height:1em;
+  vertical-align: bottom;
+  color: #f5f5f6;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.3em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  
+.tipsLink {
+  font-family: 'norwester', sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: contents;
+  color: white;
+  letter-spacing: 0pt;
+}
+
+.fourLink {
+  font-family: 'norwester', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  display: contents;
+  font-weight: normal;
+  letter-spacing: -2pt;
+}
+
+
+.townLink {
+  font-family: 'norwester', sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: contents;
+}
