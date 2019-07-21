@@ -1,9 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
-import Cover from './components/Cover/Cover';
-import Headline from './components/Headline/Headline';
-import Contents from './components/Contents/Contents';
+import Homepage from './components/Homepage/Homepage';
 import './App.css';
 
 function App() {
@@ -11,10 +9,10 @@ function App() {
     <div>
       <BrowserRouter>
         <Navigation />
-        <Cover />
-        <Headline />  
-        <Contents />    
-        <footer className="zone yellow">made by aNUbizz</footer>
+        <Homepage />
+        <footer className="zone yellow">
+          made by aNUbizz
+        </footer>
       </BrowserRouter>
     </div>
   );

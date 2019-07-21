@@ -16,13 +16,13 @@
   justify-content: space-around;
 }
 
-.box {
+#contents .box {
   padding: 2em;
   flex-basis: 12em;
   text-align: center;
   }
   
- .fa-icon {
+  #contents .fa-icon {
    color: #00BCD4;
  }
   /*

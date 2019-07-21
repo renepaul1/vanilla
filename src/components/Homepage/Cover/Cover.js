@@ -4,11 +4,10 @@ import './Cover.css';
 
 const Cover = () => {
     return (
-        <div className="container" id="cover">
+        <div id="cover">
           {/* <img className="cover" src={townImg} alt="town" /> 
-              <div class="logo"> */}
-          
-          <header className="logo-header">
+              <div class="logo"> */}          
+          <header>
               <span className="tipsLogo">tips</span><span className="fourLogo accent-text-color">4</span><span translate="no" className="townLogo accent-text-color notranslate">own</span>
           </header>
         </div>

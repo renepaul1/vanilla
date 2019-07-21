@@ -2,14 +2,14 @@
 /***********************************************************************
 *  Cover
 **********************************************************************/
-.container {
+#cover {
   /*show heigh: auto  
   align-items: center;
   justify-content: center;
   height: 70vh; 
   */
   height: auto; 
-  display: flex;
+  /* display: flex; */
   background-image: url(./town.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 */
 
-.logo-header {
+#cover header {
   /* position: absolute; 
   width: 100%;
   top: 100px;
@@ -51,9 +51,8 @@
   display: contents;
   font-size:2em;
   font-weight: normal;
-  letter-spacing: -10pt;
+  letter-spacing: -5pt;
 }
-
 
 .townLogo {
   display: contents;
