@@ -9,7 +9,7 @@ const Cover = () => {
               <div class="logo"> */}
           
           <header className="logo-header">
-              <span className="tipsLogo">tips</span><span className="fourLogo accent-text-color">4</span><span className="townLogo accent-text-color">own</span>
+              <span className="tipsLogo">tips</span><span className="fourLogo accent-text-color">4</span><span translate="no" className="townLogo accent-text-color notranslate">own</span>
           </header>
         </div>
     )

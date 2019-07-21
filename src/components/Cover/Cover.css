@@ -6,8 +6,9 @@
   /*show heigh: auto  
   align-items: center;
   justify-content: center;
-  */
   height: 70vh; 
+  */
+  height: auto; 
   display: flex;
   background-image: url(./town.jpeg);
   background-position: center;
@@ -28,13 +29,15 @@
   width: 100%;
   top: 100px;
   float: left;
+  justify-content: center;
+  padding-left: 30%;  
   */
   width: 100vw;
-  justify-content: center;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.3);
-  padding-left: 30%;
+  text-align: center;
   padding-top: 100px;
+  padding-bottom: 20%;
   font-family: 'norwester', sans-serif;
   font-size: 3em;
   font-weight: bold;
